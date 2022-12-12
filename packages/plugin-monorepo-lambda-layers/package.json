@@ -1,6 +1,6 @@
 {
   "name": "@genjs/genjs-plugin-monorepo-lambda-layers",
-  "version": "0.4.23",
+  "version": "0.4.24",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -25,10 +25,10 @@
     "@genjs/genjs": "^0"
   },
   "dependencies": {
-    "@genjs/genjs-bundle-javascript": "^0.1.22",
-    "@genjs/genjs-bundle-scm": "^0.1.10"
+    "@genjs/genjs-bundle-javascript": "^0.1.23",
+    "@genjs/genjs-bundle-scm": "^0.1.11"
   },
   "devDependencies": {
-    "@genjs/genjs": "^0.4.17"
+    "@genjs/genjs": "^0.4.18"
   }
 }

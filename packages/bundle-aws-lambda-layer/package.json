@@ -1,6 +1,6 @@
 {
   "name": "@genjs/genjs-bundle-aws-lambda-layer",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -22,10 +22,10 @@
     "@genjs/genjs": "^0"
   },
   "dependencies": {
-    "@genjs/genjs-bundle-aws": "^0.1.19",
-    "@genjs/genjs-bundle-package": "^0.1.20"
+    "@genjs/genjs-bundle-aws": "^0.1.20",
+    "@genjs/genjs-bundle-package": "^0.1.21"
   },
   "devDependencies": {
-    "@genjs/genjs": "^0.4.17"
+    "@genjs/genjs": "^0.4.18"
   }
 }

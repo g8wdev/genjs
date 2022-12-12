@@ -10,23 +10,15 @@ on:
 
 jobs:
   build:
-
-    runs-on: ubuntu-18.04
-
+    runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
 
-      - name: Set Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14.x
 
-      - name: Set NPM Registry identity
-        uses: ohoareau/actions/npmrc-scope-authtoken-add@master
-        with:
-          scope: genjs
-          token: ${{secrets.CUSTOM_GITHUB_TOKEN}}
-          registry: npm.pkg.github.com
+
+
+
 
       - name: Install
         shell: 'script -q -e -c "bash {0}"'
@@ -34,7 +26,6 @@ jobs:
         env:
           FORCE_COLOR: 3
           CI: true
-
       - name: Test
         shell: 'script -q -e -c "bash {0}"'
         run: make test

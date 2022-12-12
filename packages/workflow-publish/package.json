@@ -1,6 +1,6 @@
 {
   "name": "@genjs/genjs-workflow-publish",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -23,6 +23,6 @@
     "@genjs/genjs": "^0"
   },
   "devDependencies": {
-    "@genjs/genjs": "^0.4.17"
+    "@genjs/genjs": "^0.4.18"
   }
 }
