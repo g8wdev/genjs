@@ -1,6 +1,6 @@
 {
   "name": "@genjs/genjs-plugin-monorepo-docker-images",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -25,11 +25,12 @@
     "@genjs/genjs": "^0"
   },
   "dependencies": {
-    "@genjs/genjs-bundle-monorepo": "^0.1.19",
-    "@genjs/genjs-bundle-scm": "^0.1.10",
-    "@genjs/genjs-workflow-publish": "^0.1.11"
+    "@genjs/genjs-bundle-monorepo": "^0.1.21",
+    "@genjs/genjs-bundle-scm": "^0.1.12",
+    "@genjs/genjs-workflow-publish": "^0.1.13"
   },
   "devDependencies": {
-    "@genjs/genjs": "^0.4.17"
-  }
+    "@genjs/genjs": "^0.4.19"
+  },
+  "gitHead": "20f73f38fce0f73526e552aae4f76a48776d76ef"
 }

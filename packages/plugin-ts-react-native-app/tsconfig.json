@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "composite": true
+  },
+  "references": [
+    { "path": "../genjs"},
+    { "path": "../bundle-javascript"}
+  ],
+  "include": [
+    "./src"
+  ]
+}

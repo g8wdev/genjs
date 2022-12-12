@@ -44,7 +44,7 @@ package-fixture-dir-dump:
 package-fixture-dump:
 	@cd packages/$(p) && yarn --silent dump -c __fixtures__/$(f).js -t ../../generated/$(f)
 package-install: ## Install the dependencies of all packages using Lerna
-	@yarn --silent lerna bootstrap --scope @genjs/$(p)
+	@yarn --silent lerna bootstrap --scope @g8wdev/$(p)
 package-test: package-build ## Execute the tests
 	@cd packages/$(p) && yarn --silent test --coverage --detectOpenHandles
 

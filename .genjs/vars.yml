@@ -1,14 +1,14 @@
 name: genjs
 author: {name: Olivier Hoareau, email: oha@greenberets.io}
-company: GENJS
-project_prefix: genjs
+company: g8w
+project_prefix: g8w
 project_name: genjs
-project_description: GENJS JS/Typescript Libraries
-project_git_url: git@github.com:genjsdev/genjs.git
+project_description: g8w GENJS JS/Typescript Libraries
+project_git_url: git@github.com:g8wdev/genjs.git
 package_registry: npm.pkg.github.com
 package_registry_secret_var: CUSTOM_GITHUB_TOKEN
-github_aws_profile: genjs-${{env.env}}
-npm_scope: genjs
+github_aws_profile: g8w-${{env.env}}
+npm_scope: g8wdev
 scm: github
 license: ISC
 node_version: 16.10.0
