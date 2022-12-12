@@ -1,6 +1,6 @@
 {
   "name": "@genjs/genjs-bundle-ruby",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -22,10 +22,10 @@
     "@genjs/genjs": "^0"
   },
   "dependencies": {
-    "@genjs/genjs-bundle-package": "^0.1.21"
+    "@genjs/genjs-bundle-package": "^0.1.22"
   },
   "devDependencies": {
-    "@genjs/genjs": "^0.4.18"
+    "@genjs/genjs": "^0.4.19"
   },
   "gitHead": "20f73f38fce0f73526e552aae4f76a48776d76ef"
 }
