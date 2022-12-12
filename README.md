@@ -27,7 +27,7 @@ Additionnally, if you need to do develop on that repository, you will need:
 
 ## Get the project
 
-    git clone git@github.com:genjsdev/genjs.git
+    git clone git@github.com:g8wdev/genjs.git
 
 Then:
 

@@ -1,6 +1,6 @@
 {
   "name": "@genjs/genjs-bundle-scm",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -22,6 +22,7 @@
     "@genjs/genjs": "^0"
   },
   "devDependencies": {
-    "@genjs/genjs": "^0.4.17"
-  }
+    "@genjs/genjs": "^0.4.18"
+  },
+  "gitHead": "20f73f38fce0f73526e552aae4f76a48776d76ef"
 }
